@@ -1,0 +1,100 @@
+#header {
+    background-image: url('../img/header-background.png');
+    background-size: cover;
+    height: 800px;
+}
+
+#scorecard-header {
+    background-image: url('../img/scorecard-background.png');
+    background-size: cover;
+    height: 800px;
+}
+
+#vanlynk-header {
+    background-image: url('../img/vanlynk/vanlynk-background.png');
+    background-size: cover;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link {
+    color: #cccccc;
+}
+.nav-link:hover {
+    color: white;
+}
+
+.feature {
+    text-align: center;
+    padding: 10px;
+}
+
+.feature-wrap:hover {
+    border-color: rgba(0,0,0,.09);
+    /* box-shadow: 0 5px 20px rgba(0,0,0,.09); */
+    box-shadow: 20px 10px 10px 10px black;
+    /* -moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px); */
+    transform: translate(0px, -10px)
+}
+
+.feature-wrap {
+    padding: 10px;
+    box-shadow: rgba(11, 26, 33, 0.08) 0px 3px 10px !important;
+    transition: transform .2s;
+}
+
+.feature h3 {
+    font-size: 20px;
+}
+
+.feature p {
+    font-size: 15px;
+}
+
+.feature a p {
+    color: #00C15E;
+}
+
+.feature a p:hover {
+    color: #00C15E;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.92);
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a {
+    color: rgb(167, 167, 167);
+}
+
+.a-heading {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer i {
+    padding-left: 5px; 
+    padding-right: 5px; 
+    color: #cccccc;
+}
+
+footer i:hover {
+    padding-left: 5px; 
+    padding-right: 5px; 
+    color: white;
+}
